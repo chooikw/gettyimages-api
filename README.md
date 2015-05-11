@@ -438,10 +438,14 @@ Example response:
 3. Call oEmbed with each of the asset ids of the embeddable images that you wish to use.
 
 ## SDKs
-SDKs for our API are available for multiple languages:
+SDKs for our API are available for multiple languages
+
+##### The SDKs for these languages are up-to-date with support for all major functionality for both images and videos:
 - <a href="https://github.com/gettyimages/gettyimages-api_dotnet" target="_blank">C#</a>
+- <a href="https://github.com/gettyimages/gettyimages-api_php" target="_blank">PHP</a>
+
+##### The SDKs for these languages support basic functionality for searching images and are a work in progress; feel free to enhance them and submit pull requests:
 - <a href="https://github.com/gettyimages/gettyimages-api_java" target="_blank">Java</a>
 - <a href="https://github.com/gettyimages/gettyimages-api_nodejs" target="_blank">Node.js</a>
 - <a href="https://github.com/gettyimages/gettyimages-api_objective-c" target="_blank">Objective-C (iOS and OS X)</a>
-- <a href="https://github.com/gettyimages/gettyimages-api_php" target="_blank">PHP</a>
 - <a href="https://github.com/gettyimages/gettyimages-api_ruby" target="_blank">Ruby</a>
