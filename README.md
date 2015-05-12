@@ -7,6 +7,17 @@ Seamlessly integrate Getty Images' expansive digital content, powerful search te
 
 This page describes the Getty Images API version 3.0. <a href="v2/README.md" target="_blank">Documentation for prior versions</a> is also available.
 
+## Quick links
+
+- [Quick Start](QuickStart.md)
+- [API Overview](#api-overview)
+- <a href="oauth2.md" target="_blank">OAuth2 Access Tokens</a>
+- <a href="https://api.gettyimages.com/swagger" target="_blank">Interactive Documentation</a>
+- <a href="code-samples" target="_blank">Code Samples</a>
+- <a href="release-notes.md" target="_blank">Release Notes</a>
+- [Getty Images API SDKs](#sdks)
+
+
 ## New Features
 
 - Simplified authentication and authorization. Client applications no longer need to maintain session tokens. Instead, applications identify themselves on every call to the API with an Api-Key. Resources that require or support authorization based on user identity will accept OAuth2 access tokens in addition to the application’s Api-Key.
@@ -16,15 +27,6 @@ This page describes the Getty Images API version 3.0. <a href="v2/README.md" tar
 - Localization support using the `Accept-Language` HTTP header.
 - [SDKs](#sdks) to make getting started even easier.
 
-## Quick links
-
-- [Getting Started](#getting-started)
-- [API Overview](#api-overview)
-- <a href="oauth2.md" target="_blank">OAuth2 Access Tokens</a>
-- <a href="https://api.gettyimages.com/swagger" target="_blank">Interactive Documentation</a>
-- <a href="code-samples" target="_blank">Code Samples</a>
-- <a href="release-notes.md" target="_blank">Release Notes</a>
-- [Getty Images API SDKs](#sdks)
 
 ## Getting Started
 
