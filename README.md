@@ -10,6 +10,7 @@ This page describes the Getty Images API version 3.0. <a href="v2/README.md" tar
 ## Quick links
 
 - [Quick Start](QuickStart.md)
+- [Example WorkFlows](#example-workflows)
 - [API Overview](#api-overview)
 - <a href="oauth2.md" target="_blank">OAuth2 Access Tokens</a>
 - <a href="https://api.gettyimages.com/swagger" target="_blank">Interactive Documentation</a>
@@ -27,6 +28,9 @@ This page describes the Getty Images API version 3.0. <a href="v2/README.md" tar
 - Localization support using the `Accept-Language` HTTP header.
 - [SDKs](#sdks) to make getting started even easier.
 
+## Example Workflows
+
+* [Download Workflow](DownloadWorkflow.md)
 
 ## Getting Started
 
