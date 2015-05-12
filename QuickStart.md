@@ -1,4 +1,4 @@
-# From 0 to Search Results in 5 min
+# From 0 to Search Results in 5 minutes
 
 ## Workflow
 1. [Sign Up](https://developer.gettyimages.com/member/register) for an Api-Key and Secret
