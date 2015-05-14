@@ -30,9 +30,10 @@ This page describes the Getty Images API version 3.0. <a href="v2/README.md" tar
 
 ## Example Workflows
 
-* [OAuth2 Resource Owner](OAuth2Workflow.md#resource-owner-flow)
-* [OAuth2 Client Credential](OAuth2Workflow.md#client-credentials-flow)
-* [OAuth2 Implicit Grant](OAuth2ImplicitGrantWorkflow.md)
+* OAuth2
+  * [Resource Owner](OAuth2Workflow.md#resource-owner-flow)
+  * [Client Credential](OAuth2Workflow.md#client-credentials-flow)
+  * [Implicit Grant](OAuth2ImplicitGrantWorkflow.md)
 * [Search Quick Start](QuickStart.md)
 * [Download Workflow](DownloadWorkflow.md)
 
