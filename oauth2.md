@@ -7,7 +7,7 @@ OAuth is an open security protocol designed to protect system and user credentia
 
 Do I Need Getty Images User Credentials?
 ----------------------------------------
-If you have been working with one of our account managers on a business-to-business licensing agreement, you are more than likely using the [Resource Owner and Password flow] (https://github.com/gettyimages/connect/tree/master/documentation/endpoints/oauth2#resource-owner-flow). Note that you must specify GettyImages.com or Thinkstock.com user credentials in the call to retrieve access tokens. If you are unsure about these credentials, please contact your account manager.
+If you have been working with one of our account managers on a business-to-business licensing agreement, you are more than likely using the [Resource Owner and Password flow] (https://github.com/gettyimages/gettyimages-api/blob/master/oauth2.md#resource-owner-flow). Note that you must specify GettyImages.com or Thinkstock.com user credentials in the call to retrieve access tokens. If you are unsure about these credentials, please contact your account manager.
 
 Did You Get Your Key via Online Registration?
 ---------------------------------------------
