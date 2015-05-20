@@ -10,8 +10,8 @@ This page describes the Getty Images API version 3.0. <a href="v2/README.md" tar
 ## Quick links
 
 - [Registering for a key](register-for-a-key.md)
-- [Example WorkFlows](#example-workflows)
-- [OAuth2 Access Tokens](oauth.md)
+- [Example Workflows](#example-workflows)
+- [OAuth2 Access Tokens](oauth2.md)
 - <a href="https://api.gettyimages.com/swagger" target="_blank">Interactive Documentation</a>
 - <a href="http://developer.gettyimages.com/forum/topics/124373" target="_blank">Release Notes</a>
 - [Getty Images API SDKs](#sdks)
