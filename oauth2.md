@@ -11,7 +11,7 @@ If you have been working with one of our account managers on a business-to-busin
 
 Did You Get Your Key via Online Registration?
 ---------------------------------------------
-If you registered to get your key on our [portal] (https://developer.gettyimages.com/member/register), note that your key is automatically configured to use the Client Credentials flow. To get an access token to establish your session, follow the steps in the [Client Credentials flow] (https://github.com/gettyimages/connect/blob/master/documentation/endpoints/oauth2/README.md#client-credentials-flow) section below. Once you are ready to commercialize your application, we will work with you to determine which OAuth2 flow is most appropriate for your application's use cases.
+If you registered to get your key on our [portal] (https://developer.gettyimages.com/member/register), note that your key is automatically configured to use the Client Credentials flow. To get an access token to establish your session, follow the steps in the [Client Credentials flow] (https://github.com/gettyimages/gettyimages-api/blob/master/oauth2.md#client-credentials-flow) section below. Once you are ready to commercialize your application, we will work with you to determine which OAuth2 flow is most appropriate for your application's use cases.
 
 Important Terminology
 ---------------------
