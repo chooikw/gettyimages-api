@@ -121,7 +121,7 @@ Some fields are in neither `summary_set` nor `detail_set` and must be explicitly
 
 Some fields require additional access priviledges and must be explicitly specified. In these cases clients must also provide an [access token](#authorization).
 
-    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" -H "Authorization: Bearer {access_token}" "https://api.gettyimages.com/v3/images/452224426?fields=downloads"
+    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" -H "Authorization: Bearer {access_token}" "https://api.gettyimages.com/v3/images/83454800?fields=downloads"
 
 #### Download Sizes
 
