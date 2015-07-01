@@ -26,7 +26,7 @@ The Getty Images API is currently at version 3. Use the following base URI to ac
 
 The Getty Images API requires all requests include an Api-Key to authenticate the client. Pass the Api-Key via the custom `Api-Key` HTTP Header.
 
-    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/452224426"
+    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/83454800"
 
 ## Authorization
 
@@ -104,20 +104,20 @@ Some fields are computationally expensive for the API to provide or require addi
 
 The default set of fields returned are the `summary_set`. Both of the following produce the same response.
 
-    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/452224426
-    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/452224426?fields=summary_set
+    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/83454800
+    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/83454800?fields=summary_set
 
 The API provides a `detail_set` specifier that will include additional fields.
 
-    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/452224426?fields=detail_set
+    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/83454800?fields=detail_set
 
 Alternately, clients can pass a comma delimited list of the specific fields they are interested in.
 
-    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/452224426?fields=id,title"
+    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/83454800?fields=id,title"
 
 Some fields are in neither `summary_set` nor `detail_set` and must be explicitly specified.
 
-    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/452224426?fields=download_sizes"
+    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/83454800?fields=download_sizes"
 
 Some fields require additional access priviledges and must be explicitly specified. In these cases clients must also provide an [access token](#authorization).
 
@@ -173,7 +173,7 @@ The Getty Images API strives to use appropriate HTTP verbs to perform actions on
 
 Some API endpoints take parameters specified as a segment in the path.
 
-    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/452224426"
+    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/83454800"
 
 Additional options can be specified as HTTP querystring parameters.
 
@@ -181,7 +181,7 @@ Additional options can be specified as HTTP querystring parameters.
 
 Some resources allow filtering on their representations using the `fields` querystring parameter.
 
-    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/452224426?fields=id,title"
+    curl -i -H "Api-Key:j878g39yx378pa77djthzzpn" "https://api.gettyimages.com/v3/images/83454800?fields=id,title"
 
 In the last example the response will contain only the fields `id` and `title`.
 
