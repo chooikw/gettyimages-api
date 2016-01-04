@@ -1,5 +1,7 @@
 # Getty Images API 3.0
 
+[![Join the chat at https://gitter.im/gettyimages/gettyimages-api](https://badges.gitter.im/gettyimages/gettyimages-api.svg)](https://gitter.im/gettyimages/gettyimages-api?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Seamlessly integrate Getty Images' expansive digital content, powerful search technology, and rich metadata into your publishing tools, products and services!
 - <a href="https://api.gettyimages.com/swagger/ui/index.html#!/Search" target="_blank">Search</a> for images from our extensive creative and editorial catalogs.
 - Get <a href="https://api.gettyimages.com/swagger/ui/index.html#!/Images" target="_blank">image metadata</a>.
